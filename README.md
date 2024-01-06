@@ -8,16 +8,32 @@ Malicious bots can cause several issues, such as Distributed Denial of Service (
 We evaluated a potential vulnerability within in-network caching systems. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
 attempting to inject counterfeit popular items into the caching system.
 
-<p>We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [3], and Alibaba benchmark generator [4]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
-of the characteristics of the web requests [5], web traffic [6], workload [7], bot traffic [8], and network caches [9]. Then,
+<p>We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
+of the characteristics of the web requests, web traffic, workload, bot traffic, and network caches. Then,
 we formulated a set of guiding principles for the precise generation of a bot traffic dataset. The following are the key
 principles we adhered to during the dataset creation process:
 
-1- Search queries made by bots are often long search queries and tend to search for not so popular items in the e-commerce search engine [10]. 
+1- Search queries made by bots are often long search queries and tend to search for not so popular items in the e-commerce search engine. 
 
-2- User requests follow a Zipfian distribution [11]. This observation signifies that specific segments of the data experience
+2- User requests follow a Zipfian distribution. This observation signifies that specific segments of the data experience
 a higher volume of requests, a pattern that evolves over time.
 
-3- The average time interval between consecutive requests made by bots is five times shorter than normal users [12].
+3- The average time interval between consecutive requests made by bots is five times shorter than normal users.
 </p>
 
+## Refrences
+<p>[1] Shangbin Feng, Herun Wan, Ningnan Wang, Jundong Li, and Minnan
+Luo. Twibot-20: A comprehensive twitter bot detection benchmark. In
+Proceedings of the 30th ACM International Conference on Information
+& Knowledge Management, pages 4485–4494, 2021.</p>
+<p>[2] Elaheh Biglar Beigi, Hossein Hadian Jazi, Natalia Stakhanova, and Ali A
+Ghorbani. Towards effective feature selection in machine learning-
+based botnet detection approaches. In 2014 IEEE Conference on
+Communications and Network Security, pages 247–255. IEEE, 2014. </p>
+<p>[3] Wikimedia. Wikimedia rest api. https://wikimedia.org/api/rest v1/#/,
+2023.</p>
+<p>[4] Amazon. Shopping queries dataset: A large-scale esci benchmark for
+improving product search. https://github.com/amazon-science/esci-data,
+2022.</p>
+<p>[5] Alibaba. e-commerce search benchmark. https://github.com/alibaba/e
+CommerceSearchBench, 2020.</p>
