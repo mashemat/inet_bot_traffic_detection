@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# In network bot traffic analysis
+# E-Commerce Bot Traffic: In-Network Impact, Detection, and Mitigation
 <p align="center">
 <img src="./image/vul.png" style="float;" width="350" height="270">
 </p>
@@ -10,9 +10,7 @@ ities. Despite online businesses’ continuous efforts
 to enhance user experience through the adoption of modern
 technologies the disruptive presence of malicious bots
 poses a significant threat to the revenue and overall success of
-companies.
-
-we review the characteristics of bot traffic in real-world e-commerce websites and analyze how these characteristics can bring vulnerability while using in-network
+companies. we review the characteristics of bot traffic in real-world e-commerce websites and analyze how these characteristics can bring vulnerability while using in-network
 caching in the backend. We outline how the presence of bot traffic can lead to higher cache misses of legitimate users. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
 attempting to inject counterfeit popular items into the caching system.
 
