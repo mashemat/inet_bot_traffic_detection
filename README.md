@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# E-Commerce Bot Traffic: In-Network Impact, Detection, and Mitigation
+# In-Network Impact of E-Commerce Bot Traffic
 <p align="center">
 <img src="./image/vul.png" style="float;" width="350" height="270">
 </p>
