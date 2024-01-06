@@ -4,11 +4,21 @@
 <p align="center">
 <img src="./image/vul.png" style="float;" width="350" height="270">
 </p>
-Malicious bots can cause several issues, such as Distributed Denial of Service (DDoS) attacks, generating fake news, web scrapings, or shilling attacks in recommender systems. 
-We evaluated a potential vulnerability within in-network caching systems. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
+The rapid growth of e-commerce has led to an increased
+prevalence of automated bots engaging in fraudulent activ-
+ities. Despite online businesses’ continuous efforts
+to enhance user experience through the adoption of modern
+technologies the disruptive presence of malicious bots
+poses a significant threat to the revenue and overall success of
+companies.
+
+we review the characteristics of bot traffic in real-world e-commerce websites and analyze how these characteristics can bring vulnerability while using in-network
+caching in the backend. We outline how the presence of bot traffic can lead to higher cache misses of legitimate users. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
 attempting to inject counterfeit popular items into the caching system.
 
-<p>We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
+<p>Gaining access to data for research in e-commerce and
+related areas like search and recommendation has proven to
+be a challenging endeavo. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
 of the characteristics of the web requests, web traffic, workload, bot traffic, and network caches. Then,
 we formulated a set of guiding principles for the precise generation of a bot traffic dataset. The following are the key
 principles we adhered to during the dataset creation process:
