@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-<img src="./image/vul.png" alt="Alt Text" width="200"/>
+<img src="./image/vul.png" alt="Alt Text" width="600"/>
 <p>
 
 # In network bot traffic analysis
