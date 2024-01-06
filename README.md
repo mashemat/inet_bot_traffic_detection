@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # In network bot traffic analysis
-<p>
+<p align="center">
 <img src="./image/vul.png" style="float;" width="350" height="180">
 </p>
 Malicious bots can cause several issues, such as Distributed Denial of Service (DDoS) attacks, generating fake news, web scrapings, or shilling attacks in recommender systems. 
