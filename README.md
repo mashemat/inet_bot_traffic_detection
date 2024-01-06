@@ -2,8 +2,9 @@
 
 # In network bot traffic analysis
 <p>
+Malicious bots can cause several issues, such as Distributed Denial of Service (DDoS) attacks, generating fake news, web scrapings, or shilling attacks in recommender systems.
 <img src="./image/vul.png" style="float: left; margin-right: 10px;" width="250" height="180">
-Malicious bots can cause several issues, such as Distributed Denial of Service (DDoS) attacks, generating fake news, web scrapings, or shilling attacks in recommender systems. We evaluated a potential vulnerability within in-network caching systems. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
+ We evaluated a potential vulnerability within in-network caching systems. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
 attempting to inject counterfeit popular items into the caching system.
 </p>
 
