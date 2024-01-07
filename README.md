@@ -16,7 +16,7 @@ attempting to inject counterfeit popular items into the caching system.
 
 <p>Gaining access to data for research in e-commerce and
 related areas like search and recommendation has proven to
-be a challenging endeavo. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
+be a challenging endeavor. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
 of the characteristics of the web requests, web traffic, workload, bot traffic, and network caches. Then,
 we formulated a set of guiding principles for the precise generation of a bot traffic dataset. The following are the key
 principles we adhered to during the dataset creation process:
@@ -28,6 +28,10 @@ a higher volume of requests, a pattern that evolves over time.
 
 3- The average time interval between consecutive requests made by bots is five times shorter than normal users.
 </p>
+
+To create a bot dataset in accordance with our learning guidelines, we utilized a Zipfian request distribution with an alpha value of 0.9, as detailed in the zipfian folder. This folder contains essential information for generating keys based on the Zipfian distribution. Bots primarily send requests for less popular keys, while legitimate users focus on popular items.
+
+Additionally, the interarrival time between requests adheres to a normal distribution. Notably, bots exhibit a shorter interarrival time compared to legitimate users. The necessary details for generating interarrival time are available in the time folder.
 
 ## Refrences
 <p>[1] Shangbin Feng, Herun Wan, Ningnan Wang, Jundong Li, and Minnan
