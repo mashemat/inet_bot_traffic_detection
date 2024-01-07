@@ -44,8 +44,7 @@ The files are licensed under MIT License: [LICENSE](./LICENSE). The text of the 
 If you use this code, please cite our paper:
 ```bash
 Hemmatpour, Masoud, Zheng, Changgang, and Noa Zilberman. "E-Commerce Bot Traffic: In-Network Impact,
-Detection, and Mitigation", ICIN 2024,2023.
-}
+Detection, and Mitigation", ICIN 2024.
 ```
 ## Refrences
 <p>[1] Shangbin Feng, Herun Wan, Ningnan Wang, Jundong Li, and Minnan
