@@ -1,6 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # In-Network Impact of E-Commerce Bot Traffic
+
+## Introduction
 <p align="center">
 <img src="./image/vul.png" style="float;" width="350" height="270">
 </p>
@@ -14,6 +16,7 @@ companies. we review the characteristics of bot traffic in real-world e-commerce
 caching in the backend. We outline how the presence of bot traffic can lead to higher cache misses of legitimate users. As depicted, regular users typically request popular items, leading to the storage of these items within the in-network caching system. However, malicious bots follow a different pattern, actively soliciting less popular items and
 attempting to inject counterfeit popular items into the caching system.
 
+# Dataset
 <p>Gaining access to data for research in e-commerce and
 related areas like search and recommendation has proven to
 be a challenging endeavor. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Amazon [3], and Alibaba benchmark generator [4]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
@@ -32,7 +35,13 @@ a higher volume of requests, a pattern that evolves over time.
 To create a bot dataset in accordance with our learning guidelines, we utilized a Zipfian request distribution with an alpha value of 0.9, as detailed in the zipfian folder. This folder contains essential information for generating keys based on the Zipfian distribution. Bots primarily send requests for less popular keys, while legitimate users focus on popular items.
 
 Additionally, the interarrival time between requests adheres to a normal distribution. Notably, bots exhibit a shorter interarrival time compared to legitimate users. The necessary details for generating interarrival time are available in the time folder.
-
+# Citation
+If you use this code, please cite our paper:
+```bash
+Hemmatpour, Masoud, Zheng, Changgang, and Noa Zilberman. "E-Commerce Bot Traffic: In-Network Impact,
+Detection, and Mitigation", ICIN 2024,2023.
+}
+```
 ## Refrences
 <p>[1] Shangbin Feng, Herun Wan, Ningnan Wang, Jundong Li, and Minnan
 Luo. Twibot-20: A comprehensive twitter bot detection benchmark. In
