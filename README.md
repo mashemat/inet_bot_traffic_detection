@@ -45,5 +45,4 @@ Communications and Network Security, pages 247–255. IEEE, 2014. </p>
 <p>[3] Amazon. Shopping queries dataset: A large-scale esci benchmark for
 improving product search. https://github.com/amazon-science/esci-data,
 2022.</p>
-<p>[4] Alibaba. e-commerce search benchmark. https://github.com/alibaba/e
-CommerceSearchBench, 2020.</p>
+<p>[4] Alibaba. e-commerce search benchmark. https://github.com/alibaba/eCommerceSearchBench, 2020.</p>
