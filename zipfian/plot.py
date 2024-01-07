@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import math
 
 
-
-
 data=[]
 #data_plot=[]
 

@@ -1,3 +1,5 @@
+// This file is taken from University of South Florida:
+// https://cse.usf.edu/~kchriste/tools/genzipf.c
 //==================================================== file = genzipf.c =====
 //=  Program to generate Zipf (power law) distributed random variables      =
 //===========================================================================
