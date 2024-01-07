@@ -35,6 +35,11 @@ a higher volume of requests, a pattern that evolves over time.
 To create a bot dataset in accordance with our learning guidelines, we utilized a Zipfian request distribution with an alpha value of 0.9, as detailed in the zipfian folder. This folder contains essential information for generating keys based on the Zipfian distribution. Bots primarily send requests for less popular keys, while legitimate users focus on popular items.
 
 Additionally, the interarrival time between requests adheres to a normal distribution. Notably, bots exhibit a shorter interarrival time compared to legitimate users. The necessary details for generating interarrival time are available in the time folder.
+
+# License
+The files are licensed under MIT License: [LICENSE](./LICENSE). The text of the license can also be found in the LICENSE file.
+
+
 # Citation
 If you use this code, please cite our paper:
 ```bash
