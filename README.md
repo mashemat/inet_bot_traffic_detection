@@ -16,7 +16,7 @@ attempting to inject counterfeit popular items into the caching system.
 
 <p>Gaining access to data for research in e-commerce and
 related areas like search and recommendation has proven to
-be a challenging endeavor. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Wikimedia API [3], Amazon [4], and Alibaba benchmark generator [5]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
+be a challenging endeavor. We conducted an analysis on several pre-existing datasets such as Twibot-20 [1], bot-net [2], Amazon [3], and Alibaba benchmark generator [4]. However, these datasets did not meet our criteria due to either lacking sufficient annotations or lacking essential query and user information. As a result, we conducted a thorough review, which encompassed an analysis
 of the characteristics of the web requests, web traffic, workload, bot traffic, and network caches. Then,
 we formulated a set of guiding principles for the precise generation of a bot traffic dataset. The following are the key
 principles we adhered to during the dataset creation process:
@@ -42,10 +42,8 @@ Proceedings of the 30th ACM International Conference on Information
 Ghorbani. Towards effective feature selection in machine learning-
 based botnet detection approaches. In 2014 IEEE Conference on
 Communications and Network Security, pages 247–255. IEEE, 2014. </p>
-<p>[3] Wikimedia. Wikimedia rest api. https://wikimedia.org/api/rest v1/#/,
-2023.</p>
-<p>[4] Amazon. Shopping queries dataset: A large-scale esci benchmark for
+<p>[3] Amazon. Shopping queries dataset: A large-scale esci benchmark for
 improving product search. https://github.com/amazon-science/esci-data,
 2022.</p>
-<p>[5] Alibaba. e-commerce search benchmark. https://github.com/alibaba/e
+<p>[4] Alibaba. e-commerce search benchmark. https://github.com/alibaba/e
 CommerceSearchBench, 2020.</p>
