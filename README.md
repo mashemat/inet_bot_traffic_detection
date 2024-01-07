@@ -46,7 +46,7 @@ If you use this code, please cite our paper:
 Hemmatpour, Masoud, Zheng, Changgang, and Noa Zilberman. "E-Commerce Bot Traffic: In-Network Impact,
 Detection, and Mitigation", ICIN 2024.
 ```
-## Refrences
+## References
 <p>[1] Shangbin Feng, Herun Wan, Ningnan Wang, Jundong Li, and Minnan
 Luo. Twibot-20: A comprehensive twitter bot detection benchmark. In
 Proceedings of the 30th ACM International Conference on Information
