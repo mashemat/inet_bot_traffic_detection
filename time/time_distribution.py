@@ -17,5 +17,5 @@ random_numbers = np.random.normal(my_mean, math.sqrt(my_variance),1999995) #  + 
 
 #print(np.mean(random_numbers))
 
-savetxt('new_normal.csv', random_numbers , delimiter=',')
+savetxt('normal.csv', random_numbers , delimiter=',')
 
